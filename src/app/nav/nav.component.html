@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" id="log">GoodReads</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link button fancy-button" routerLink="">
+                        <p style="size: 1em">Home</p><span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="card">Books</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Collection
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">1984</a>
+                        <a class="dropdown-item" href="#">The Alchemist</a>
+                        <a class="dropdown-item" href="#">Blade Runner</a>
+                        <a class="dropdown-item" href="#">The Great Gatsby</a>
+                        <a class="dropdown-item" href="#">Hobbit</a>
+                        <a class="dropdown-item" href="#">The Metamorphosis</a>
+                        <a class="dropdown-item" href="#">The Old Man and The Sea</a>
+                        <a class="dropdown-item" href="#">Murder on the Orient Express</a>
+                        <a class="dropdown-item" href="#">The Little Prince</a>
+                        <a class="dropdown-item" href="#">A Study in Scarlet</a>
+                        <a class="dropdown-item" href="#">The Time Machine</a>
+                        <a class="dropdown-item" href="#">Chess Story</a>
+
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-primary" style="margin-right: 10px" type="button" routerLink="cart">Show cart</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                    style="border: solid black">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit" style="border: solid lightseagreen">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
